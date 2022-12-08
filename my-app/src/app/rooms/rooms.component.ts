@@ -57,4 +57,9 @@ export class RoomsComponent {
     click(){
       this.amin= !this.amin
     }
+    selectRoom(room:RoomList){
+      console.log(room)
+    }
+
+  
 }
